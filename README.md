@@ -1,0 +1,2 @@
+# LZNBezierDrawingBoard
+用贝赛尔曲线实现的画图板，可以截图并保存到相册中
