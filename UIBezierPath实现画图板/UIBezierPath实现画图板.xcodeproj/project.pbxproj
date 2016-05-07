@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC279741CDD7DE60087F3AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC279731CDD7DE60087F3AB /* AppDelegate.swift */; };
+		2FC279761CDD7DE60087F3AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC279751CDD7DE60087F3AB /* ViewController.swift */; };
+		2FC279791CDD7DE60087F3AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC279771CDD7DE60087F3AB /* Main.storyboard */; };
+		2FC2797B1CDD7DE60087F3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC2797A1CDD7DE60087F3AB /* Assets.xcassets */; };
+		2FC2797E1CDD7DE60087F3AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC2797C1CDD7DE60087F3AB /* LaunchScreen.storyboard */; };
+		2FC279891CDD7DE60087F3AB /* UIBezierPath_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC279881CDD7DE60087F3AB /* UIBezierPath_____Tests.swift */; };
+		2FC279941CDD7DE60087F3AB /* UIBezierPath_____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC279931CDD7DE60087F3AB /* UIBezierPath_____UITests.swift */; };
+		2FC279A31CDD7E840087F3AB /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC279A21CDD7E840087F3AB /* MyView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FC279851CDD7DE60087F3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC279681CDD7DE60087F3AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC2796F1CDD7DE60087F3AB;
+			remoteInfo = "UIBezierPath实现画图板";
+		};
+		2FC279901CDD7DE60087F3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC279681CDD7DE60087F3AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC2796F1CDD7DE60087F3AB;
+			remoteInfo = "UIBezierPath实现画图板";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FC279701CDD7DE60087F3AB /* UIBezierPath实现画图板.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIBezierPath实现画图板.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC279731CDD7DE60087F3AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FC279751CDD7DE60087F3AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FC279781CDD7DE60087F3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FC2797A1CDD7DE60087F3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FC2797D1CDD7DE60087F3AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FC2797F1CDD7DE60087F3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC279841CDD7DE60087F3AB /* UIBezierPath实现画图板Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIBezierPath实现画图板Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC279881CDD7DE60087F3AB /* UIBezierPath_____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBezierPath_____Tests.swift"; sourceTree = "<group>"; };
+		2FC2798A1CDD7DE60087F3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC2798F1CDD7DE60087F3AB /* UIBezierPath实现画图板UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIBezierPath实现画图板UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC279931CDD7DE60087F3AB /* UIBezierPath_____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBezierPath_____UITests.swift"; sourceTree = "<group>"; };
+		2FC279951CDD7DE60087F3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC279A21CDD7E840087F3AB /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC2796D1CDD7DE60087F3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC279811CDD7DE60087F3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC2798C1CDD7DE60087F3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FC279671CDD7DE60087F3AB = {
+			isa = PBXGroup;
+			children = (
+				2FC279721CDD7DE60087F3AB /* UIBezierPath实现画图板 */,
+				2FC279871CDD7DE60087F3AB /* UIBezierPath实现画图板Tests */,
+				2FC279921CDD7DE60087F3AB /* UIBezierPath实现画图板UITests */,
+				2FC279711CDD7DE60087F3AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC279711CDD7DE60087F3AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC279701CDD7DE60087F3AB /* UIBezierPath实现画图板.app */,
+				2FC279841CDD7DE60087F3AB /* UIBezierPath实现画图板Tests.xctest */,
+				2FC2798F1CDD7DE60087F3AB /* UIBezierPath实现画图板UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC279721CDD7DE60087F3AB /* UIBezierPath实现画图板 */ = {
+			isa = PBXGroup;
+			children = (
+				2FC279A11CDD7E010087F3AB /* Supports */,
+				2FC279751CDD7DE60087F3AB /* ViewController.swift */,
+				2FC279A21CDD7E840087F3AB /* MyView.swift */,
+			);
+			path = "UIBezierPath实现画图板";
+			sourceTree = "<group>";
+		};
+		2FC279871CDD7DE60087F3AB /* UIBezierPath实现画图板Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC279881CDD7DE60087F3AB /* UIBezierPath_____Tests.swift */,
+				2FC2798A1CDD7DE60087F3AB /* Info.plist */,
+			);
+			path = "UIBezierPath实现画图板Tests";
+			sourceTree = "<group>";
+		};
+		2FC279921CDD7DE60087F3AB /* UIBezierPath实现画图板UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC279931CDD7DE60087F3AB /* UIBezierPath_____UITests.swift */,
+				2FC279951CDD7DE60087F3AB /* Info.plist */,
+			);
+			path = "UIBezierPath实现画图板UITests";
+			sourceTree = "<group>";
+		};
+		2FC279A11CDD7E010087F3AB /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				2FC279771CDD7DE60087F3AB /* Main.storyboard */,
+				2FC2797A1CDD7DE60087F3AB /* Assets.xcassets */,
+				2FC2797C1CDD7DE60087F3AB /* LaunchScreen.storyboard */,
+				2FC2797F1CDD7DE60087F3AB /* Info.plist */,
+				2FC279731CDD7DE60087F3AB /* AppDelegate.swift */,
+			);
+			name = Supports;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC2796F1CDD7DE60087F3AB /* UIBezierPath实现画图板 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC279981CDD7DE60087F3AB /* Build configuration list for PBXNativeTarget "UIBezierPath实现画图板" */;
+			buildPhases = (
+				2FC2796C1CDD7DE60087F3AB /* Sources */,
+				2FC2796D1CDD7DE60087F3AB /* Frameworks */,
+				2FC2796E1CDD7DE60087F3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIBezierPath实现画图板";
+			productName = "UIBezierPath实现画图板";
+			productReference = 2FC279701CDD7DE60087F3AB /* UIBezierPath实现画图板.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FC279831CDD7DE60087F3AB /* UIBezierPath实现画图板Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC2799B1CDD7DE60087F3AB /* Build configuration list for PBXNativeTarget "UIBezierPath实现画图板Tests" */;
+			buildPhases = (
+				2FC279801CDD7DE60087F3AB /* Sources */,
+				2FC279811CDD7DE60087F3AB /* Frameworks */,
+				2FC279821CDD7DE60087F3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC279861CDD7DE60087F3AB /* PBXTargetDependency */,
+			);
+			name = "UIBezierPath实现画图板Tests";
+			productName = "UIBezierPath实现画图板Tests";
+			productReference = 2FC279841CDD7DE60087F3AB /* UIBezierPath实现画图板Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FC2798E1CDD7DE60087F3AB /* UIBezierPath实现画图板UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC2799E1CDD7DE60087F3AB /* Build configuration list for PBXNativeTarget "UIBezierPath实现画图板UITests" */;
+			buildPhases = (
+				2FC2798B1CDD7DE60087F3AB /* Sources */,
+				2FC2798C1CDD7DE60087F3AB /* Frameworks */,
+				2FC2798D1CDD7DE60087F3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC279911CDD7DE60087F3AB /* PBXTargetDependency */,
+			);
+			name = "UIBezierPath实现画图板UITests";
+			productName = "UIBezierPath实现画图板UITests";
+			productReference = 2FC2798F1CDD7DE60087F3AB /* UIBezierPath实现画图板UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC279681CDD7DE60087F3AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iCodeWoods;
+				TargetAttributes = {
+					2FC2796F1CDD7DE60087F3AB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2FC279831CDD7DE60087F3AB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2FC2796F1CDD7DE60087F3AB;
+					};
+					2FC2798E1CDD7DE60087F3AB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2FC2796F1CDD7DE60087F3AB;
+					};
+				};
+			};
+			buildConfigurationList = 2FC2796B1CDD7DE60087F3AB /* Build configuration list for PBXProject "UIBezierPath实现画图板" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC279671CDD7DE60087F3AB;
+			productRefGroup = 2FC279711CDD7DE60087F3AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC2796F1CDD7DE60087F3AB /* UIBezierPath实现画图板 */,
+				2FC279831CDD7DE60087F3AB /* UIBezierPath实现画图板Tests */,
+				2FC2798E1CDD7DE60087F3AB /* UIBezierPath实现画图板UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC2796E1CDD7DE60087F3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC2797E1CDD7DE60087F3AB /* LaunchScreen.storyboard in Resources */,
+				2FC2797B1CDD7DE60087F3AB /* Assets.xcassets in Resources */,
+				2FC279791CDD7DE60087F3AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC279821CDD7DE60087F3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC2798D1CDD7DE60087F3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC2796C1CDD7DE60087F3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC279A31CDD7E840087F3AB /* MyView.swift in Sources */,
+				2FC279761CDD7DE60087F3AB /* ViewController.swift in Sources */,
+				2FC279741CDD7DE60087F3AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC279801CDD7DE60087F3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC279891CDD7DE60087F3AB /* UIBezierPath_____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC2798B1CDD7DE60087F3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC279941CDD7DE60087F3AB /* UIBezierPath_____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FC279861CDD7DE60087F3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FC2796F1CDD7DE60087F3AB /* UIBezierPath实现画图板 */;
+			targetProxy = 2FC279851CDD7DE60087F3AB /* PBXContainerItemProxy */;
+		};
+		2FC279911CDD7DE60087F3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FC2796F1CDD7DE60087F3AB /* UIBezierPath实现画图板 */;
+			targetProxy = 2FC279901CDD7DE60087F3AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FC279771CDD7DE60087F3AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC279781CDD7DE60087F3AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FC2797C1CDD7DE60087F3AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC2797D1CDD7DE60087F3AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FC279961CDD7DE60087F3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FC279971CDD7DE60087F3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FC279991CDD7DE60087F3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIBezierPath实现画图板/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iCodeWoods.UIBezierPath-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FC2799A1CDD7DE60087F3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIBezierPath实现画图板/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iCodeWoods.UIBezierPath-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FC2799C1CDD7DE60087F3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIBezierPath实现画图板Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iCodeWoods.UIBezierPath-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIBezierPath实现画图板.app/UIBezierPath实现画图板";
+			};
+			name = Debug;
+		};
+		2FC2799D1CDD7DE60087F3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIBezierPath实现画图板Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iCodeWoods.UIBezierPath-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIBezierPath实现画图板.app/UIBezierPath实现画图板";
+			};
+			name = Release;
+		};
+		2FC2799F1CDD7DE60087F3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIBezierPath实现画图板UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iCodeWoods.UIBezierPath-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIBezierPath实现画图板";
+			};
+			name = Debug;
+		};
+		2FC279A01CDD7DE60087F3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIBezierPath实现画图板UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iCodeWoods.UIBezierPath-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIBezierPath实现画图板";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC2796B1CDD7DE60087F3AB /* Build configuration list for PBXProject "UIBezierPath实现画图板" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC279961CDD7DE60087F3AB /* Debug */,
+				2FC279971CDD7DE60087F3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC279981CDD7DE60087F3AB /* Build configuration list for PBXNativeTarget "UIBezierPath实现画图板" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC279991CDD7DE60087F3AB /* Debug */,
+				2FC2799A1CDD7DE60087F3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FC2799B1CDD7DE60087F3AB /* Build configuration list for PBXNativeTarget "UIBezierPath实现画图板Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC2799C1CDD7DE60087F3AB /* Debug */,
+				2FC2799D1CDD7DE60087F3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FC2799E1CDD7DE60087F3AB /* Build configuration list for PBXNativeTarget "UIBezierPath实现画图板UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC2799F1CDD7DE60087F3AB /* Debug */,
+				2FC279A01CDD7DE60087F3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FC279681CDD7DE60087F3AB /* Project object */;
+}
