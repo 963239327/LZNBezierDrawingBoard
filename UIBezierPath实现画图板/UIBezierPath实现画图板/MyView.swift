@@ -74,4 +74,3 @@ class MyView: UIView {
         }
     }
 }
-
