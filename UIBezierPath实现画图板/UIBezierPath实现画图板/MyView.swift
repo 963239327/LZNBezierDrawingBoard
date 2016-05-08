@@ -11,7 +11,7 @@ import UIKit
 
 class MyView: UIView {
     var color = UIColor.redColor() // 线条颜色
-    var lineWidth : Float = 1.0 // 线条宽度
+    var lineWidth: Float = 1.0 // 线条宽度
     private var allLine: [Dictionary<String, AnyObject>] = [] // 保存已有的线条
     private var cancelLine: [Dictionary<String, AnyObject>] = [] // 保存被撤销的线条
     private var bezier = UIBezierPath() // 贝赛尔曲线
